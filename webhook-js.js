@@ -1,7 +1,7 @@
 import { Telegraf } from "telegraf";
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
-const APP_URL = process.env.VERCEL_URL; // e.g. https://yourapp.vercel.app
+const bot = new Telegraf(process.env.8638788737:AAH4rQiXXuLIBsdYOGFrg_vdLQihTCtxRpE);
+const APP_URL = process.env.https://agentamin.vercel.app/; // e.g. https://yourapp.vercel.app
 
 bot.start(async (ctx) => {
   const userId = ctx.from.id;
