@@ -1,0 +1,19 @@
+# Senior Dev Finder — Telegram Mini App
+
+## ساختار فایل‌ها
+
+```
+project/
+├── api/
+│   ├── webhook.js        ← Bot handler (Telegraf)
+│   ├── chat.js           ← AI Agent endpoint
+│   └── session.js        ← Redis session manager
+├── public/
+│   ├── index.html        ← Mini App UI
+│   ├── app.js            ← Frontend logic
+│   └── style.css         ← Telegram-themed UI
+├── lib/
+│   └── agent.js          ← Agent prompt + logic
+├── .env.example
+└── vercel.json
+```
